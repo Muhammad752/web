@@ -1,0 +1,35 @@
+div{
+    background-color: gray;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+}
+div.skewX{
+    transform: skewX(180deg);
+    transition: transform 2s;
+}
+div.skewY{
+    transform: skewY(180deg);
+    transition: transform 2s;
+}
+div.rotateX{
+    transform: rotateX(180deg);
+    transition: transform 2s;
+}
+div.rotateY{
+    transform: rotateY(180deg);
+    transition: transform 2s;    
+}
+div.rotateZ{
+    transform: rotateZ(180deg);
+    transition: transform 2s;
+}
+div:hover{
+    transform: none;
+}
+img{
+    float: left;
+    padding: 10px;
+}

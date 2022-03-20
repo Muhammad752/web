@@ -1,3 +1,29 @@
-nav{
+ul li{
     display: inline;
+    padding-right: 5px;
+}
+ul{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    border-bottom: 10px inset;
+}
+aside img{
+    float: left;
+    padding: 10px;
+}
+div{
+    background-color: gray;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    transform-origin: center;
+    transform: skewX(10deg);
+    transform: rotateY(40deg) skewY(2deg);
+   
+    transition: transform 1s;
+}
+div:hover{
+    transform: none;
 }
